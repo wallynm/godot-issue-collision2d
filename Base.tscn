@@ -4,4 +4,4 @@
 
 [node name="Node2D" type="Node2D"]
 
-[node name="Area2D" parent="." instance=ExtResource("1_6x3ur")]
+[node name="CollisionPolygon2D" parent="." instance=ExtResource("1_6x3ur")]
