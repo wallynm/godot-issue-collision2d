@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://co643rm3vxb3f"]
+
+[ext_resource type="Script" path="res://IssueArea2D.cs" id="1_dab6s"]
+[ext_resource type="Texture2D" uid="uid://bc682tpabwrj1" path="res://icon.svg" id="2_44he5"]
+
+[node name="Area2D" type="Area2D"]
+script = ExtResource("1_dab6s")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+position = Vector2(530.2, 48.5)
+polygon = PackedVector2Array(-66, 71, 118, 69, 116, 259, -63, 264)
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(559.2, 217.5)
+texture = ExtResource("2_44he5")
